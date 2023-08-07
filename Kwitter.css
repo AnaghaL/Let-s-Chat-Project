@@ -1,20 +1,21 @@
 body
 {
     background-image: url(https://th.bing.com/th/id/OIP.uiP3iQuPVVJGouSfPHBEUAHaEK?pid=ImgDet&rs=1);
+    background-size:cover;
 }
 
 #welcome_label
 {
-    font-size: 65px;
+    font-size: 45px;
     font-family: 'Lobster', cursive;
 }
 
-#login_div
+.login_div
 {
     background-color:white;
-    height:600px;
-    width:800px;
     border-radius: 50px;
+    float: none;
+    margin-top: 40px;
 }
 
 #user_name
@@ -31,4 +32,20 @@ h5
 h3
 {
     font-family: 'Lobster', cursive;
+}
+
+h1
+{
+    color: white;
+    margin-top: 80px;
+    font-size: 65px;
+    font-family: 'Lobster', cursive;
+}
+
+#login_button
+{
+    margin-bottom: 40px;
+    width: 80%;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
