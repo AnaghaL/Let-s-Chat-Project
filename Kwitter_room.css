@@ -1,0 +1,57 @@
+body
+{
+    background-image: url(https://cdn.wallpapersafari.com/12/69/hD2L3A.jpg);
+    background-size:cover;
+}
+
+h1
+{
+    font-family: 'Lobster', cursive; 
+    font-size: 60px;
+    color: white;
+}
+
+h3{
+    font-family:  'Lobster', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+span
+{
+    font-family:  'Lobster', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+h5
+{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+
+#add_room_div
+{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    width: 900px;
+    border-radius: 50px;
+}
+
+#room_name
+{
+    width: 600px;
+}
+
+output
+{
+    background-color: white;
+}
+
+#logout
+{
+    margin-left: 20px;
+}
+
+

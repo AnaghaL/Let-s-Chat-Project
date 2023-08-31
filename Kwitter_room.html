@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kwitter Room</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Lobster&family=Lora:wght@700&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+
+</head>
+<body>
+    <br>
+    <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+    <center>
+        <br>
+        <br>
+        <h1> Let's Chat </h1>
+        <h3> Welcome, </h3> <span id="username"></span>
+        <br>
+        <div id="add_room_div">
+         <h5> Add Room: </h5>
+         <br>
+         <input id="room_name" placeholder="Type in the room name" class="form-control">  
+         <br>
+         <button onclick="addRoom();" class="btn btn-info"> Add Room</button>
+        </div>
+        <br>
+        <br>
+        <h3> Choose your room: </h3>
+        <br>
+        <div id="output"></div>      
+    </center>
+    <script src="kwitter_room.js"></script>
+</body>
+</html>
